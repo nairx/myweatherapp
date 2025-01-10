@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>My Weather App</h1>
         <div><input type="text" placeholder="Enter City Name" onChange={(e) => setCity(e.target.value)}></input>{" "}
         <button onClick={showData}>Fetch</button></div>
         {data && (
